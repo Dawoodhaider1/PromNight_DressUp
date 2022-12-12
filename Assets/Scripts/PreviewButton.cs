@@ -4,18 +4,28 @@ using UnityEngine;
 
 public class PreviewButton : MonoBehaviour
 {
-    public GameObject previewButton;
-    public GameObject previewButton_2;
+    public GameObject SideBar_Left;
+    public GameObject SideBar_Right;
+    public GameObject LowerBanner_left;
+    public GameObject LowerBanner_Right;
     public GameObject SubmitButton;
 
     public void PreviewSettings()
     {
-        if (previewButton != null)
+        if (SideBar_Left != null && SideBar_Right != null)
         {
-            bool IsActive = previewButton.activeSelf;
-            bool IsActive_2 = previewButton_2.activeSelf;
-            previewButton.SetActive(!IsActive);
-            previewButton_2.SetActive(!IsActive_2);
+            //SideBars
+            bool IsActive = SideBar_Left.activeSelf;
+            bool IsActive_right = SideBar_Right.activeSelf;
+            //LowerBanners
+            bool IsActive_Left = LowerBanner_left.activeSelf;
+            bool IsActive_Right = LowerBanner_Right.activeSelf;
+            //Making sideBars and Lower Banners inactive if the condition gets true...
+            SideBar_Left.SetActive(!IsActive);
+            SideBar_Right.SetActive(!IsActive);
+            LowerBanner_left.SetActive(!IsActive_Left);
+            LowerBanner_Right.SetActive(!IsActive_Right);
+            //Submit Button getting active...
             bool IsActive_3 = SubmitButton.activeSelf;
             SubmitButton.SetActive(!IsActive_3);
         }

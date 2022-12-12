@@ -972,8 +972,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe201de485690174ab49f8b4afbcf59d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  previewButton: {fileID: 1760180728}
-  previewButton_2: {fileID: 285104127}
+  SideBar_Left: {fileID: 0}
+  SideBar_Right: {fileID: 0}
+  LowerBanner_left: {fileID: 0}
+  LowerBanner_Right: {fileID: 0}
   SubmitButton: {fileID: 1354703492}
 --- !u!1 &24989961
 GameObject:
@@ -1755,7 +1757,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 990624026}
+      - m_Target: {fileID: 1172868246}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -1767,7 +1769,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 990624022}
+      - m_Target: {fileID: 1172868244}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -7796,7 +7798,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 147094350}
+      - m_Target: {fileID: 329671766}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -7808,7 +7810,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 147094346}
+      - m_Target: {fileID: 329671764}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -8993,7 +8995,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 147094350}
+      - m_Target: {fileID: 329671766}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -9005,7 +9007,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 147094346}
+      - m_Target: {fileID: 329671764}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -11122,7 +11124,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 990624026}
+      - m_Target: {fileID: 1172868246}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -11134,7 +11136,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 990624022}
+      - m_Target: {fileID: 1172868244}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -12553,7 +12555,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1889722368}
+      - m_Target: {fileID: 728288479}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -12565,7 +12567,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1889722364}
+      - m_Target: {fileID: 728288477}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -13202,7 +13204,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 74833248}
+      - m_Target: {fileID: 2075842527}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -13214,7 +13216,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 74833244}
+      - m_Target: {fileID: 2075842525}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -14396,7 +14398,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 446774957}
+      - m_Target: {fileID: 1019081478}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -14408,7 +14410,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 446774953}
+      - m_Target: {fileID: 1019081476}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -14959,7 +14961,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1889722368}
+      - m_Target: {fileID: 728288479}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -14971,7 +14973,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1889722364}
+      - m_Target: {fileID: 728288477}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -15564,7 +15566,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1889722368}
+      - m_Target: {fileID: 728288479}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -15576,7 +15578,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1889722364}
+      - m_Target: {fileID: 728288477}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -16803,7 +16805,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1889722368}
+      - m_Target: {fileID: 728288479}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -16815,7 +16817,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1889722364}
+      - m_Target: {fileID: 728288477}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -18874,7 +18876,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 147094350}
+      - m_Target: {fileID: 329671766}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -18886,7 +18888,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 147094346}
+      - m_Target: {fileID: 329671764}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -27473,7 +27475,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1889722368}
+      - m_Target: {fileID: 728288479}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -27485,7 +27487,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1889722364}
+      - m_Target: {fileID: 728288477}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -29569,7 +29571,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 990624026}
+      - m_Target: {fileID: 1172868246}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -29581,7 +29583,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 990624022}
+      - m_Target: {fileID: 1172868244}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -30539,7 +30541,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 74833248}
+      - m_Target: {fileID: 2075842527}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -30551,7 +30553,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 74833244}
+      - m_Target: {fileID: 2075842525}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -31558,7 +31560,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 446774957}
+      - m_Target: {fileID: 1019081478}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -31570,7 +31572,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 446774953}
+      - m_Target: {fileID: 1019081476}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -36232,7 +36234,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 147094350}
+      - m_Target: {fileID: 329671766}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -36244,7 +36246,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 147094346}
+      - m_Target: {fileID: 329671764}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -38282,7 +38284,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 147094350}
+      - m_Target: {fileID: 329671766}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -38294,7 +38296,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 147094346}
+      - m_Target: {fileID: 329671764}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -39312,7 +39314,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 147094350}
+      - m_Target: {fileID: 329671766}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -39324,7 +39326,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 147094346}
+      - m_Target: {fileID: 329671764}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -40767,7 +40769,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 74833248}
+      - m_Target: {fileID: 2075842527}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -40779,7 +40781,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 74833244}
+      - m_Target: {fileID: 2075842525}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -45592,7 +45594,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 446774957}
+      - m_Target: {fileID: 1019081478}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -45604,7 +45606,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 446774953}
+      - m_Target: {fileID: 1019081476}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -45858,7 +45860,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 446774957}
+      - m_Target: {fileID: 1019081478}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -45870,7 +45872,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 446774953}
+      - m_Target: {fileID: 1019081476}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -46131,7 +46133,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 990624026}
+      - m_Target: {fileID: 1172868246}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -46143,7 +46145,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 990624022}
+      - m_Target: {fileID: 1172868244}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -50931,7 +50933,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1596500148}
+      - m_Target: {fileID: 549812305}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -50943,7 +50945,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1596500144}
+      - m_Target: {fileID: 549812303}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -51501,7 +51503,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1596500148}
+      - m_Target: {fileID: 549812305}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -51513,7 +51515,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1596500144}
+      - m_Target: {fileID: 549812303}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -51602,7 +51604,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &981125898
 RectTransform:
   m_ObjectHideFlags: 0
@@ -53078,7 +53080,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1016203400
 RectTransform:
   m_ObjectHideFlags: 0
@@ -53962,7 +53964,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 556.50006, y: 54.099976}
+  m_AnchoredPosition: {x: 566.92, y: 54.099976}
   m_SizeDelta: {x: 229, y: 1534.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1034579821
@@ -54412,7 +54414,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 446774957}
+      - m_Target: {fileID: 1019081478}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -54424,7 +54426,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 446774953}
+      - m_Target: {fileID: 1019081476}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -54685,7 +54687,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 990624026}
+      - m_Target: {fileID: 1172868246}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -54697,7 +54699,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 990624022}
+      - m_Target: {fileID: 1172868244}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -58988,7 +58990,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 74833248}
+      - m_Target: {fileID: 2075842527}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -59000,7 +59002,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 74833244}
+      - m_Target: {fileID: 2075842525}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -60163,7 +60165,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1889722368}
+      - m_Target: {fileID: 728288479}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -60175,7 +60177,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1889722364}
+      - m_Target: {fileID: 728288477}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -60507,7 +60509,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 990624026}
+      - m_Target: {fileID: 1172868246}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -60519,7 +60521,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 990624022}
+      - m_Target: {fileID: 1172868244}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -63011,7 +63013,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1179915354
 RectTransform:
   m_ObjectHideFlags: 0
@@ -66256,7 +66258,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 147094350}
+      - m_Target: {fileID: 329671766}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -66268,7 +66270,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 147094346}
+      - m_Target: {fileID: 329671764}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -67448,7 +67450,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 74833248}
+      - m_Target: {fileID: 2075842527}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -67460,7 +67462,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 74833244}
+      - m_Target: {fileID: 2075842525}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -67714,7 +67716,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 990624026}
+      - m_Target: {fileID: 1172868246}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -67726,7 +67728,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 990624022}
+      - m_Target: {fileID: 1172868244}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -68048,7 +68050,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1889722368}
+      - m_Target: {fileID: 728288479}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -68060,7 +68062,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1889722364}
+      - m_Target: {fileID: 728288477}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -70064,7 +70066,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1596500148}
+      - m_Target: {fileID: 549812305}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -70076,7 +70078,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1596500144}
+      - m_Target: {fileID: 549812303}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -70912,7 +70914,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1889722368}
+      - m_Target: {fileID: 728288479}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -70924,7 +70926,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1889722364}
+      - m_Target: {fileID: 728288477}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -74145,7 +74147,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 446774957}
+      - m_Target: {fileID: 1019081478}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -74157,7 +74159,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 446774953}
+      - m_Target: {fileID: 1019081476}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -74973,7 +74975,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1596500148}
+      - m_Target: {fileID: 549812305}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -74985,7 +74987,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1596500144}
+      - m_Target: {fileID: 549812303}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -82430,7 +82432,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1596500148}
+      - m_Target: {fileID: 549812305}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -82442,7 +82444,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1596500144}
+      - m_Target: {fileID: 549812303}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -82696,7 +82698,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 446774957}
+      - m_Target: {fileID: 1019081478}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -82708,7 +82710,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 446774953}
+      - m_Target: {fileID: 1019081476}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -82898,8 +82900,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe201de485690174ab49f8b4afbcf59d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  previewButton: {fileID: 1957038233}
-  previewButton_2: {fileID: 657287614}
+  SideBar_Left: {fileID: 0}
+  SideBar_Right: {fileID: 0}
+  LowerBanner_left: {fileID: 0}
+  LowerBanner_Right: {fileID: 0}
   SubmitButton: {fileID: 1584072932}
 --- !u!114 &1553663483
 MonoBehaviour:
@@ -83578,7 +83582,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 990624026}
+      - m_Target: {fileID: 1172868246}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -83590,7 +83594,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 990624022}
+      - m_Target: {fileID: 1172868244}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -83962,7 +83966,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 74833248}
+      - m_Target: {fileID: 2075842527}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -83974,7 +83978,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 74833244}
+      - m_Target: {fileID: 2075842525}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -84639,7 +84643,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 74833248}
+      - m_Target: {fileID: 2075842527}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -84651,7 +84655,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 74833244}
+      - m_Target: {fileID: 2075842525}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -87498,7 +87502,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1596500148}
+      - m_Target: {fileID: 549812305}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -87510,7 +87514,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1596500144}
+      - m_Target: {fileID: 549812303}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -90203,7 +90207,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 74833248}
+      - m_Target: {fileID: 2075842527}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -90215,7 +90219,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 74833244}
+      - m_Target: {fileID: 2075842525}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -90534,7 +90538,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1596500148}
+      - m_Target: {fileID: 549812305}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -90546,7 +90550,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1596500144}
+      - m_Target: {fileID: 549812303}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -92186,7 +92190,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 446774957}
+      - m_Target: {fileID: 1019081478}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -92198,7 +92202,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 446774953}
+      - m_Target: {fileID: 1019081476}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -94096,7 +94100,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1747680320
 RectTransform:
   m_ObjectHideFlags: 0
@@ -96071,7 +96075,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1596500148}
+      - m_Target: {fileID: 549812305}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -96083,7 +96087,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1596500144}
+      - m_Target: {fileID: 549812303}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -100860,7 +100864,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 990624026}
+      - m_Target: {fileID: 1172868246}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -100872,7 +100876,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 990624022}
+      - m_Target: {fileID: 1172868244}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -102247,7 +102251,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 74833248}
+      - m_Target: {fileID: 2075842527}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -102259,7 +102263,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 74833244}
+      - m_Target: {fileID: 2075842525}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -103485,7 +103489,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 74833248}
+      - m_Target: {fileID: 2075842527}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -103497,7 +103501,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 74833244}
+      - m_Target: {fileID: 2075842525}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -104343,8 +104347,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe201de485690174ab49f8b4afbcf59d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  previewButton: {fileID: 713840702}
-  previewButton_2: {fileID: 725188503}
+  SideBar_Left: {fileID: 713840702}
+  SideBar_Right: {fileID: 1034579819}
+  LowerBanner_left: {fileID: 725188503}
+  LowerBanner_Right: {fileID: 959917160}
   SubmitButton: {fileID: 1413246246}
 --- !u!114 &1933721835
 MonoBehaviour:
@@ -104620,7 +104626,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 147094350}
+      - m_Target: {fileID: 329671766}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -104632,7 +104638,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 147094346}
+      - m_Target: {fileID: 329671764}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -105376,7 +105382,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1596500148}
+      - m_Target: {fileID: 549812305}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -105388,7 +105394,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1596500144}
+      - m_Target: {fileID: 549812303}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -107524,7 +107530,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 147094350}
+      - m_Target: {fileID: 329671766}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -107536,7 +107542,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 147094346}
+      - m_Target: {fileID: 329671764}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -107790,7 +107796,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 446774957}
+      - m_Target: {fileID: 1019081478}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -107802,7 +107808,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 446774953}
+      - m_Target: {fileID: 1019081476}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -111178,7 +111184,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 446774957}
+      - m_Target: {fileID: 1019081478}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -111190,7 +111196,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 446774953}
+      - m_Target: {fileID: 1019081476}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -113773,7 +113779,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 147094350}
+      - m_Target: {fileID: 329671766}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -113785,7 +113791,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 147094346}
+      - m_Target: {fileID: 329671764}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -114046,7 +114052,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1596500148}
+      - m_Target: {fileID: 549812305}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -114058,7 +114064,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1596500144}
+      - m_Target: {fileID: 549812303}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -114493,7 +114499,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1889722368}
+      - m_Target: {fileID: 728288479}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -114505,7 +114511,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1889722364}
+      - m_Target: {fileID: 728288477}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -115596,7 +115602,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 990624026}
+      - m_Target: {fileID: 1172868246}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -115608,7 +115614,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 990624022}
+      - m_Target: {fileID: 1172868244}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -119140,7 +119146,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1889722368}
+      - m_Target: {fileID: 728288479}
         m_TargetAssemblyTypeName: Dresses, Assembly-CSharp
         m_MethodName: SetImage
         m_Mode: 3
@@ -119152,7 +119158,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1889722364}
+      - m_Target: {fileID: 728288477}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
