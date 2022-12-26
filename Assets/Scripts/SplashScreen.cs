@@ -6,19 +6,20 @@ using UnityEngine.UI;
 
 public class SplashScreen : MonoBehaviour
 {
-    public static int sceneNumber;
+    public Slider loadingBar;
     void Start()
     {
-        if(sceneNumber == 0)
-        {
-            StartCoroutine(ToMainMenu());
-        }
+        StartCoroutine(LoadingScene());
     }
 
-    IEnumerator ToMainMenu()
+    IEnumerator LoadingScene()
     {
-        yield return new WaitForSeconds(5);
-        sceneNumber = 1;
+        for(int i = 0; i <= 5; i++)
+        {
+            yield return new WaitForSeconds(1);
+            loadingBar.value = i;
+        }
+        yield return new WaitForSeconds(1);
         SceneManager.LoadScene(1);
     }
 }

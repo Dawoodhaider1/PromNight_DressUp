@@ -1,0 +1,5 @@
+[2022-12-26 09:41:27] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2022-12-26 09:41:27] layer "bg_generic_multiple panels.png": Duplicate path: bg_generic_multiple panels.png
+[2022-12-26 09:41:27] layer "btn_cross.png copy": Expected end of input but "c" found.
+[2022-12-26 09:41:27] layer "btn_sound on.png copy": Expected end of input but "c" found.
+[2022-12-26 09:41:27] layer "btn_sound off.png copy": Expected end of input but "c" found.

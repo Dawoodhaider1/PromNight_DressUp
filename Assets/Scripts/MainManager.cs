@@ -9,23 +9,21 @@ public class MainManager : MonoBehaviour
 
     public int avatar_selected;
     public int Coins = 1000;
-    //Middle Eastern
-    public int[] Purchased_Dresses = new int[5];
-    public int[] Purchased_Shoes_ME = new int[5];
-    public int[] Purchased_Turbans_ME = new int[5];
-    //Western
+    //Male Model
     public int[] Purchased_Shirts = new int[5];
     public int[] Purchased_Pants = new int[5];
     public int[] Purchased_Coats = new int[5];
     public int[] Purchased_Ties = new int[5];
     public int[] Purchased_Hairstyles = new int[5];
     public int[] Purchased_Shoes_W = new int[5];
-    //South Asian
-    public int[] Purchased_Sherwani = new int[5];
-    public int[] Purchased_Trousers = new int[5];
-    public int[] Purchased_Shawls = new int[5];
-    public int[] Purchased_Turbans_SA = new int[5];
-    public int[] Purchased_Khussas = new int[5];
+
+    //Female Model
+    public int[] Purchased_Dresses = new int[5];
+    public int[] Purchased_HandBags = new int[5];
+    public int[] Purchased_Jewelry = new int[5];
+    public int[] Purchased_Crown = new int[5];
+    public int[] Purchased_Hairstyles_Female = new int[5];
+    public int[] Purchased_Shoes_Female = new int[5];
 
     public int item;
     public int side_button_number;
@@ -51,23 +49,21 @@ public class MainManager : MonoBehaviour
         public int avatar_selected;
         public int Coins;
         public int item;
-        //Middle Eastern
-        public int[] purchased_Dresses = new int[5];
-        public int[] purchased_Shoes_ME = new int[5];
-        public int[] purchased_Turbans_ME = new int[5];
-        //Western
+        //Male Model
         public int[] purchased_Shirts = new int[5];
         public int[] purchased_Pants = new int[5];
         public int[] purchased_Coats = new int[5];
         public int[] purchased_Ties = new int[5];
         public int[] purchased_Hairstyles = new int[5];
         public int[] purchased_Shoes_W = new int[5];
-        //South Asian
-        public int[] purchased_Sherwani = new int[5];
-        public int[] purchased_Trousers = new int[5];
-        public int[] purchased_Shawls = new int[5];
-        public int[] purchased_Turbans_SA = new int[5];
-        public int[] purchased_Khussas = new int[5];
+
+        //Female Model
+        public int[] Purchased_Dresses = new int[5];
+        public int[] Purchased_HandBags = new int[5];
+        public int[] Purchased_Jewelry = new int[5];
+        public int[] Purchased_Crown = new int[5];
+        public int[] Purchased_Hairstyles_Female = new int[5];
+        public int[] Purchased_Shoes_Female = new int[5];
     }
 
     public void SaveUserData()
@@ -76,20 +72,7 @@ public class MainManager : MonoBehaviour
         data.avatar_selected = avatar_selected;
         data.Coins = Coins;
         data.item = item;
-        //Middle Eastern
-        for(int i = 0; i < 5; i++)
-        {
-            data.purchased_Dresses[i] = Purchased_Dresses[i];
-        }
-        for (int i = 0; i < 5; i++)
-        {
-            data.purchased_Shoes_ME[i] = Purchased_Shoes_ME[i];
-        }
-        for (int i = 0; i < 5; i++)
-        {
-            data.purchased_Turbans_ME[i] = Purchased_Turbans_ME[i];
-        }
-        //Western
+        //Male Model
         for (int i = 0; i < Purchased_Shirts.Length; i++)
         {
             data.purchased_Shirts[i] = Purchased_Shirts[i];
@@ -114,26 +97,31 @@ public class MainManager : MonoBehaviour
         {
             data.purchased_Shoes_W[i] = Purchased_Shoes_W[i];
         }
-        //South Asia
-        for (int i = 0; i < Purchased_Sherwani.Length; i++)
+
+        //Female Model
+        for (int i = 0; i < Purchased_Dresses.Length; i++)
         {
-            data.purchased_Sherwani[i] = Purchased_Sherwani[i];
+            data.Purchased_Dresses[i] = Purchased_Dresses[i];
         }
-        for (int i = 0; i < Purchased_Trousers.Length; i++)
+        for (int i = 0; i < Purchased_HandBags.Length; i++)
         {
-            data.purchased_Trousers[i] = Purchased_Trousers[i];
+            data.Purchased_HandBags[i] = Purchased_HandBags[i];
         }
-        for (int i = 0; i < Purchased_Shawls.Length; i++)
+        for (int i = 0; i < Purchased_Jewelry.Length; i++)
         {
-            data.purchased_Shawls[i] = Purchased_Shawls[i];
+            data.Purchased_Jewelry[i] = Purchased_Jewelry[i];
         }
-        for (int i = 0; i < Purchased_Turbans_SA.Length; i++)
+        for (int i = 0; i < Purchased_Crown.Length; i++)
         {
-            data.purchased_Turbans_SA[i] = Purchased_Turbans_SA[i];
+            data.Purchased_Crown[i] = Purchased_Crown[i];
         }
-        for (int i = 0; i < Purchased_Khussas.Length; i++)
+        for (int i = 0; i < Purchased_Hairstyles_Female.Length; i++)
         {
-            data.purchased_Khussas[i] = Purchased_Khussas[i];
+            data.Purchased_Hairstyles_Female[i] = Purchased_Hairstyles_Female[i];
+        }
+        for (int i = 0; i < Purchased_Shoes_Female.Length; i++)
+        {
+            data.Purchased_Shoes_Female[i] = Purchased_Shoes_Female[i];
         }
 
         string json = JsonUtility.ToJson(data);
@@ -152,21 +140,8 @@ public class MainManager : MonoBehaviour
             avatar_selected = data.avatar_selected;
             Coins = data.Coins;
             item = data.item;
-            //Middle Eastern
-            for (int i = 0; i < 5; i++)
-            {
-                Purchased_Dresses[i] = data.purchased_Dresses[i];
-            }
-            for (int i = 0; i < 5; i++)
-            {
-                Purchased_Shoes_ME[i] = data.purchased_Shoes_ME[i];
-            }
-            for (int i = 0; i < Purchased_Turbans_ME.Length; i++)
-            {
-                Purchased_Turbans_ME[i] = data.purchased_Turbans_ME[i];
-            }
 
-            //Western
+            //Male Model
             for (int i = 0; i < Purchased_Shirts.Length; i++)
             {
                 Purchased_Shirts[i] = data.purchased_Shirts[i];
@@ -191,27 +166,33 @@ public class MainManager : MonoBehaviour
             {
                 Purchased_Shoes_W[i] = data.purchased_Shoes_W[i];
             }
-            //South Asian
-            for (int i = 0; i < Purchased_Sherwani.Length; i++)
+
+            //Female Model
+            for (int i = 0; i < Purchased_Dresses.Length; i++)
             {
-                Purchased_Sherwani[i] = data.purchased_Sherwani[i];
+                Purchased_Dresses[i] = data.Purchased_Dresses[i];
             }
-            for (int i = 0; i < Purchased_Trousers.Length; i++)
+            for (int i = 0; i < Purchased_HandBags.Length; i++)
             {
-                Purchased_Trousers[i] = data.purchased_Trousers[i];
+                Purchased_HandBags[i] = data.Purchased_HandBags[i];
             }
-            for (int i = 0; i < Purchased_Shawls.Length; i++)
+            for (int i = 0; i < Purchased_Jewelry.Length; i++)
             {
-                Purchased_Shawls[i] = data.purchased_Shawls[i];
+                Purchased_Jewelry[i] = data.Purchased_Jewelry[i];
             }
-            for (int i = 0; i < Purchased_Turbans_SA.Length; i++)
+            for (int i = 0; i < Purchased_Crown.Length; i++)
             {
-                Purchased_Turbans_SA[i] = data.purchased_Turbans_SA[i];
+                Purchased_Crown[i] = data.Purchased_Crown[i];
             }
-            for (int i = 0; i < Purchased_Khussas.Length; i++)
+            for (int i = 0; i < Purchased_Hairstyles_Female.Length; i++)
             {
-                Purchased_Khussas[i] = data.purchased_Khussas[i];
+                Purchased_Hairstyles_Female[i] = data.Purchased_Hairstyles_Female[i];
             }
+            for (int i = 0; i < Purchased_Shoes_Female.Length; i++)
+            {
+                Purchased_Shoes_Female[i] = data.Purchased_Shoes_Female[i];
+            }
+
         }
     }
 

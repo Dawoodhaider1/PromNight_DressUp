@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class CountdownTimer : MonoBehaviour
 {
     LevelManager levelManager;
+    public GameObject LoosePanel;
     float CurrentTime = 0f;
     private float StartingTime = 120f;
 
@@ -26,7 +27,7 @@ public class CountdownTimer : MonoBehaviour
         else if(CurrentTime <= 0)
         {
             CurrentTime = 0;
-            GameObject.FindObjectOfType<LevelManager>().LoadRequest("Loose");
+            LoosePanel.SetActive(true);
         }
         else
         {

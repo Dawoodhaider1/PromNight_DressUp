@@ -1,0 +1,25 @@
+[2022-12-26 09:38:09] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:38:09] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:38:09] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:38:09] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:38:09] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:38:09] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:38:09] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:38:09] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:38:09] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:38:09] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:38:09] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:38:09] layer "icon_avatar_2.png": Duplicate path: icon_avatar_2.png
+[2022-12-26 09:38:09] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:38:09] layer "icon_avatar_3.png ": Duplicate path: icon_avatar_3.png
+[2022-12-26 09:38:09] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:38:09] layer "icon_avatar_4.png": Duplicate path: icon_avatar_4.png
+[2022-12-26 09:38:09] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:38:09] layer "icon_avatar_5.png": Duplicate path: icon_avatar_5.png
+[2022-12-26 09:38:09] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:38:09] layer "icon_avatar_6.png": Duplicate path: icon_avatar_6.png
+[2022-12-26 09:38:09] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:38:09] layer "icon_avatar_7.png": Duplicate path: icon_avatar_7.png
+[2022-12-26 09:38:09] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:38:09] layer "icon_avatar_8.png ": Duplicate path: icon_avatar_8.png
+[2022-12-26 09:38:09] layer "panel bg.png copy": Expected end of input but "c" found.

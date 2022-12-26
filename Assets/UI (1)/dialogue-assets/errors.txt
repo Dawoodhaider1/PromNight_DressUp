@@ -1,0 +1,56 @@
+[2022-12-26 09:34:13] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:34:13] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:34:13] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:34:13] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:34:13] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:34:13] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:34:13] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:34:13] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:34:13] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:34:13] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:34:13] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:34:13] layer "icon_avatar_2.png": Duplicate path: icon_avatar_2.png
+[2022-12-26 09:34:13] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:34:13] layer "icon_avatar_3.png ": Duplicate path: icon_avatar_3.png
+[2022-12-26 09:34:13] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:34:13] layer "icon_avatar_4.png": Duplicate path: icon_avatar_4.png
+[2022-12-26 09:34:13] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:34:13] layer "icon_avatar_5.png": Duplicate path: icon_avatar_5.png
+[2022-12-26 09:34:13] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:34:13] layer "icon_avatar_6.png": Duplicate path: icon_avatar_6.png
+[2022-12-26 09:34:13] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:34:13] layer "icon_avatar_7.png": Duplicate path: icon_avatar_7.png
+[2022-12-26 09:34:13] layer "icon_avatar_1.png": Duplicate path: icon_avatar_1.png
+[2022-12-26 09:34:13] layer "icon_avatar_8.png ": Duplicate path: icon_avatar_8.png
+[2022-12-26 09:34:13] layer "judges panel.png": Duplicate path: judges panel.png
+[2022-12-26 09:34:13] layer "player_2_icon_8.png copy": Expected end of input but "c" found.
+[2022-12-26 09:34:13] layer "SCORE BAR front_1.png  copy 2": Expected end of input but "c" found.
+[2022-12-26 09:34:13] layer "judges panel.png": Duplicate path: judges panel.png
+[2022-12-26 09:34:13] layer "strobe light.png copy": Expected end of input but "c" found.
+[2022-12-26 09:34:13] layer "strobe light.png copy 2": Expected end of input but "c" found.
+[2022-12-26 09:34:13] layer "player_1_icon_2.png  copy": Expected end of input but "c" found.
+[2022-12-26 09:34:13] layer "player_1_icon_3.png  copy": Expected end of input but "c" found.
+[2022-12-26 09:34:13] layer "player_1_icon_4.png  copy": Expected end of input but "c" found.
+[2022-12-26 09:34:13] layer "player_1_icon_5.png  copy": Expected end of input but "c" found.
+[2022-12-26 09:34:13] layer "player_1_icon_6.png  copy": Expected end of input but "c" found.
+[2022-12-26 09:34:13] layer "player_1_icon_7.png copy": Expected end of input but "c" found.
+[2022-12-26 09:34:13] layer "player_1_icon_8.png copy": Expected end of input but "c" found.
+[2022-12-26 09:34:13] layer "player_2_icon_1.png  copy": Expected end of input but "c" found.
+[2022-12-26 09:34:13] layer "player_2_icon_2.png  copy": Expected end of input but "c" found.
+[2022-12-26 09:34:13] layer "player_2_icon_3.png copy": Expected end of input but "c" found.
+[2022-12-26 09:34:13] layer "player_2_icon_4.png  copy": Expected end of input but "c" found.
+[2022-12-26 09:34:13] layer "player_2_icon_5.png  copy": Expected end of input but "c" found.
+[2022-12-26 09:34:13] layer "player_2_icon_6.png  copy": Expected end of input but "c" found.
+[2022-12-26 09:34:13] layer "player_2_icon_7.png copy": Expected end of input but "c" found.
+[2022-12-26 09:34:13] layer "player_2_icon_8.png copy": Expected end of input but "c" found.
+[2022-12-26 09:34:13] layer "SCORE BAR BG_1.png copy": Expected end of input but "c" found.
+[2022-12-26 09:34:13] layer "SCORE BAR front_1.png  copy": Expected end of input but "c" found.
+[2022-12-26 09:34:13] layer "SCORE BAR BG_1.png copy 2": Expected end of input but "c" found.
+[2022-12-26 09:34:13] layer "SCORE BAR front_1.png  copy 2": Expected end of input but "c" found.
+[2022-12-26 09:34:12] layer "SCORE BAR front_1.png  copy 2": Expected end of input but "c" found.
+[2022-12-26 09:34:13] layer "judges panel.png": Duplicate path: judges panel.png
+[2022-12-26 09:34:13] layer "SCORE BAR front_1.png  copy 2": Expected end of input but "c" found.
+[2022-12-26 09:34:13] layer "stars_bg.png ": Duplicate path: stars_bg.png
+[2022-12-26 09:34:13] layer "star1.png": Duplicate path: star1.png
+[2022-12-26 09:34:13] layer "star2.png": Duplicate path: star2.png
+[2022-12-26 09:34:13] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
